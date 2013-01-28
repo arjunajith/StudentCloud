@@ -1,0 +1,61 @@
+<!doctype html>
+<html>
+<head>
+<title>QRCODE</title>
+
+<style type="text/css">
+
+body{
+min-width:357px;
+overflow-x:hidden;
+}
+
+img {
+margin:5px;
+border:3px solid black;
+vertical-allign:middle;
+width:448px;
+height:296px;
+}
+.style1 {font-family: Arial, Helvetica, sans-serif}
+</style>
+
+
+<script type="text/javascript" src="grid.js"></script>
+<script type="text/javascript" src="version.js"></script>
+<script type="text/javascript" src="detector.js"></script>
+<script type="text/javascript" src="formatinf.js"></script>
+<script type="text/javascript" src="errorlevel.js"></script>
+<script type="text/javascript" src="bitmat.js"></script>
+<script type="text/javascript" src="datablock.js"></script>
+<script type="text/javascript" src="bmparser.js"></script>
+<script type="text/javascript" src="datamask.js"></script>
+<script type="text/javascript" src="rsdecoder.js"></script>
+<script type="text/javascript" src="gf256poly.js"></script>
+<script type="text/javascript" src="gf256.js"></script>
+<script type="text/javascript" src="decoder.js"></script>
+<script type="text/javascript" src="qrcode.js"></script>
+<script type="text/javascript" src="findpat.js"></script>
+<script type="text/javascript" src="alignpat.js"></script>
+<script type="text/javascript" src="databr.js"></script>
+<script type="text/javascript" src="popup.js"></script>
+
+</head>
+
+<body>
+    <div class="container">
+	
+  	<object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,0,0" name="iembedflash" width="320" height="240" align="absmiddle"  id="iembedflash">
+<param name="movie" value="camcanvas.swf" />
+  		<param name="quality" value="high" />
+		<param name="allowScriptAccess" value="always" />
+  		<embed src="camcanvas.swf" width="320" height="240" align="absmiddle"  allowScriptAccess="always"  id="embedflash" quality="high" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer" mayscript="true" name="iembedflash"  />
+    </object>
+	
+    </div>
+<button>Capture</button>
+<br>
+<canvas id="qr-canvas" width="320" height="240"></canvas>
+</body>
+
+</html>
